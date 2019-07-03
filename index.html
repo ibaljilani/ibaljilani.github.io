@@ -1,23 +1,87 @@
 <!DOCTYPE html>
 <html>
 <title>HTML Tutorial</title>
-<body>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
 
-<h1 style = "text-align:center;font-size:300%;font-family: verdana;">This is my page</h1>
-<img src= "Pictures/Beach/007.jpg" alt = "its me">
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table#01{
+  width: 50%;
+  background-color: #f1f1c1;
+}
+</style>
+<body>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+<h1 style = "border:2px solid green;text-align:center;font-size:300%;font-family: verdana;">This is my page</h1>
+<a href ='https://www.facebook.com/'>
+  <img src= "007.jpg" alt = "its me">
+</a>
 <hr>
 <button><a href="https://www.linkedin.com/in/ibrahem-al-jilani-b5107a96/">This is my linkedin.</a> </button>
-<ul>
+<ul style = "list-style-type:square;">
   <li title = "im a bullet point">learn html </li>
   <li>learn css</li>
   <li>learn java</li>
 </ul>
 <hr>
+
 <ol>
     <li title= "im a number"> get ccna </li>
     <li> learn python </li>
 </ol>
 
+<table id="t01">
+  <caption>videogame wishlist</caption>
+  <tr>
+    <th>PS4</th>
+    <th>Switch</th>
+    <th>PC</th>
+  </tr>
+  <tr>
+    <td>CTR nitro Fueled</td>
+    <td>Mario Odyssey</td>
+    <td>Doom Eternal</td>
+  </tr>
+  <tr>
+    <td>Last of Us 2</td>
+    <td>Breath of the wild</td>
+    <td>Crawl</td>
+  </tr>
+  <tr>
+    <td>Soul Calibur 6</td>
+    <td>Arms</td>
+    <td>Beat Saber</td>
+  </tr>
+</table>
 <p><strong><em>This is <br> just for practice.</strong></em></p>
 
   <p style = "color: rgb(255, 153, 0);">Oh ho youre approaching me? <i>instead of running youre approaching me?</i></p>
